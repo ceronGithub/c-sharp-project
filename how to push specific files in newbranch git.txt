@@ -13,3 +13,9 @@ create new branch
 then commit 
 * git commit -m "comment"
 * git push -u origin branch name nor git push
+
+adding new specific file to the new branch
+type in the ff:
+* git checkout branch_name file_path_and_type
+* git commit -m "comment"
+* git push -u origin branch name nor git push
