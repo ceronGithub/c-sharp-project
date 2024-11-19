@@ -1,0 +1,22 @@
+* Search how to install git bash on youtube
+* on your desktop right-click > git bash here
+* terminal will open
+
+type the ff:
+* git clone https://github.com/ceronGithub/c-sharp-project.git
+> a folder will emerged from your desktop named "c-sharp-project"
+
+
+there are 3 branches, main, develop, app
+* so in order for you to change the branches, open the git terminal again.
+* type-in git checkout branchName
+
+**note**
+study and understand git commands.
+							
+
+
+
+							ENJOY!!!!!
+
+					Goodluck!, and my yahuah and yahusha guide you!
