@@ -1,0 +1,3 @@
+git push --delete branch-to-delete : not working
+git branch -d localBranchName : deletes all files but branch still exist on git
+git push origin --delete remoteBranchName : deletes the branch on git

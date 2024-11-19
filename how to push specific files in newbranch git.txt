@@ -1,0 +1,10 @@
+Create a new branch from master
+git checkout master
+git checkout -b new_branch
+Checkout just the file you want from your old branch
+git checkout old_branch path/to/some/file
+repeat as necessary for additional files
+Commit the files to your new branch
+git commit -a
+Push new branch to origin master branch
+git push origin new_branch:master
