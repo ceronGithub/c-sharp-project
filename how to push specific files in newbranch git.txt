@@ -1,10 +1,15 @@
-Create a new branch from master
-git checkout master
-git checkout -b new_branch
-Checkout just the file you want from your old branch
-git checkout old_branch path/to/some/file
-repeat as necessary for additional files
-Commit the files to your new branch
-git commit -a
-Push new branch to origin master branch
-git push origin new_branch:master
+firstly create 2 branches
+1 branch main, 2 branch develop
+
+
+if you have 2 branches. 
+* checkout to first branch
+* type-in to terminal 'git checkout branch_name _type_the_full_file_path_and_type'
+* git status : to double check if it found the file you are looking for
+
+create new branch
+* git checkout -b branch_name
+
+then commit 
+* git commit -m "comment"
+* git push -u origin branch name nor git push
