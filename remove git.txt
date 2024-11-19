@@ -1,0 +1,3 @@
+https://www.nobledesktop.com/learn/git/stage-commit-files#:~:text='git%20add'%20command%20is%20used,git%20reset%20HEAD%20%5Bfilename%5D'.
+
+git rm -r myfolder to remove a folder (and stage it)
