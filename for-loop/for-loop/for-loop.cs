@@ -21,16 +21,21 @@ namespace for_loop
             return "non-static";
         }
 
-        public int loop1()
+        public int intLoop0()
         {
             return 0;
         }
 
-        public string loop2() {
-            return "...";
+        public string stringLoop0() {
+            List<string> result = new List<string>();
+            for (int loop = 0; loop <= 10; loop++)
+            {
+                result.Add("\t" + loop + "\n\n");
+            }
+            return string.Join("", result);
         }
 
-        public double loop3()
+        public double doubleLoop0()
         {
             return 1.00D;
         }

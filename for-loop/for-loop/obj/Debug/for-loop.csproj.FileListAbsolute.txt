@@ -20,3 +20,4 @@ C:\Users\Ceron Calsena\OneDrive\Desktop\c-sharp-project\for-loop\for-loop\obj\De
 C:\Users\Ceron Calsena\OneDrive\Desktop\c-sharp-project\for-loop\for-loop\obj\Debug\for-loop.pdb
 C:\Users\Ceron Calsena\OneDrive\Desktop\c-sharp-project\for-loop\for-loop\obj\Debug\for_loop.PP.resources
 C:\Users\Ceron Calsena\OneDrive\Desktop\c-sharp-project\for-loop\for-loop\obj\Debug\for_loop.PP2.resources
+C:\Users\Ceron Calsena\OneDrive\Desktop\c-sharp-project\for-loop\for-loop\obj\Debug\for_loop.Output.resources

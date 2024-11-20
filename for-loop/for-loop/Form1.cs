@@ -17,6 +17,7 @@ namespace for_loop
         // calls the for-loop.cs
         for_loop classMethod = new for_loop();
 
+        Output outputResult = new Output();
         public Form1()
         {
             InitializeComponent();
@@ -51,8 +52,9 @@ namespace for_loop
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
+        {            
+            outputResult.stringLoopReciever0(classMethod.stringLoop0());  
+            outputResult.ShowDialog();            
         }
     }
 }
