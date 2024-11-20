@@ -117,7 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>The ping pong test
+The rules are simple:
+
+** Number Zero won't be considered in the test
+** The validation has to be done for all values
+** Can only print one response per value
+** Print 'Ping' on each multiple of 3
+** Print 'Pong' on each multiple of 5
+** Print 'Ping-Pong' if the number is multiple of both 3 and 5</value>
+  </data>
 </root>

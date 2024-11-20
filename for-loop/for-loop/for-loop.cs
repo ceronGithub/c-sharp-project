@@ -44,23 +44,47 @@ namespace for_loop
             {                
                 if(!(i%3==0) && !(i%5==0))
                 {
-                    stringResult.Add("-");
+                    stringResult.Add(i + "." + " -");
                 }
-                if (i %3 == 0)
+                if (i %3 == 0 && !(i % 3 == 0 && i % 5 == 0))
                 {
-                    stringResult.Add("ping");
+                    stringResult.Add(i + "." + " ping");
                 }
-                if (i %5 == 0)
+                if (i %5 == 0 && !(i % 3 == 0 && i % 5 == 0))
                 {
-                    stringResult.Add("pong");
+                    stringResult.Add(i + "." + " pong");
                 }
                 if (i %3 == 0 && i %5 == 0)
                 {
-                    stringResult.Add("ping-pong");
+                    stringResult.Add(i + "." + " ping-pong");
                 }
             }
             // convert string array into string
             return String.Join("\n", stringResult);                       
+        }
+
+        public string pingPong0(string value)
+        {
+            // String.join : converts string[](array) to string
+            int convertionStringToInt = Int32.Parse(String.Join(" ", value));
+            List<string> stringResult = new List<string>();
+            for (int i = 1; i <= convertionStringToInt; i++)
+            {
+                if (i % 3 == 0 && !(i % 3 == 0 && i % 5 == 0))
+                {
+                    stringResult.Add(i + "." + " ping");
+                }
+                if (i % 5 == 0 && !(i % 3 == 0 && i % 5 == 0))
+                {
+                    stringResult.Add(i + "." + " pong");
+                }
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    stringResult.Add(i + "." + " ping-pong");
+                }
+            }
+            // convert string array into string
+            return String.Join("\n", stringResult);
         }
 
         public int theValueOfAisB(int A, int B)

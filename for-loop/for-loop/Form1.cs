@@ -25,16 +25,29 @@ namespace for_loop
         private void Form1_Load(object sender, EventArgs e)
         {
             // this is error (below), because the function is static
-            // label1.Text = classMethod.for_loop_one();
-            label1.Text = for_loop.staticMethod();
-            label2.Text = classMethod.nonStatisMethod();
+            // label1.Text = classMethod.for_loop_one();            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pingPongToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // string[] result = { classMethod.pingPong(new string[] { textBox1.Text }) };
-            string result = classMethod.pingPong(textBox1.Text);
-            richTextBox1.Text = "\n" + result;
+                       
+        }
+
+        private void pingPong2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pingPong1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PP p1 = new PP();
+            p1.ShowDialog();
+        }
+
+        private void pingPong2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            PP2 p2 = new PP2();
+            p2.ShowDialog();
         }
     }
 }
