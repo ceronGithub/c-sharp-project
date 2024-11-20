@@ -49,5 +49,10 @@ namespace for_loop
             PP2 p2 = new PP2();
             p2.ShowDialog();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

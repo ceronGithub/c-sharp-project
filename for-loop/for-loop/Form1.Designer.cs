@@ -32,9 +32,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.programmingTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pingPongToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pingPong2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pingPong1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pingPong2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pingPong2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +47,7 @@
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "linkLabel1";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // menuStrip1
             // 
@@ -73,30 +74,30 @@
             this.pingPong1ToolStripMenuItem,
             this.pingPong2ToolStripMenuItem1});
             this.pingPongToolStripMenuItem.Name = "pingPongToolStripMenuItem";
-            this.pingPongToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pingPongToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.pingPongToolStripMenuItem.Text = "Ping Pong";
             this.pingPongToolStripMenuItem.Click += new System.EventHandler(this.pingPongToolStripMenuItem_Click);
-            // 
-            // pingPong2ToolStripMenuItem
-            // 
-            this.pingPong2ToolStripMenuItem.Name = "pingPong2ToolStripMenuItem";
-            this.pingPong2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pingPong2ToolStripMenuItem.Text = "Development...";
-            this.pingPong2ToolStripMenuItem.Click += new System.EventHandler(this.pingPong2ToolStripMenuItem_Click);
             // 
             // pingPong1ToolStripMenuItem
             // 
             this.pingPong1ToolStripMenuItem.Name = "pingPong1ToolStripMenuItem";
-            this.pingPong1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pingPong1ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.pingPong1ToolStripMenuItem.Text = "Ping Pong 1";
             this.pingPong1ToolStripMenuItem.Click += new System.EventHandler(this.pingPong1ToolStripMenuItem_Click);
             // 
             // pingPong2ToolStripMenuItem1
             // 
             this.pingPong2ToolStripMenuItem1.Name = "pingPong2ToolStripMenuItem1";
-            this.pingPong2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.pingPong2ToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
             this.pingPong2ToolStripMenuItem1.Text = "Ping Pong 2";
             this.pingPong2ToolStripMenuItem1.Click += new System.EventHandler(this.pingPong2ToolStripMenuItem1_Click);
+            // 
+            // pingPong2ToolStripMenuItem
+            // 
+            this.pingPong2ToolStripMenuItem.Name = "pingPong2ToolStripMenuItem";
+            this.pingPong2ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.pingPong2ToolStripMenuItem.Text = "Development...";
+            this.pingPong2ToolStripMenuItem.Click += new System.EventHandler(this.pingPong2ToolStripMenuItem_Click);
             // 
             // Form1
             // 
