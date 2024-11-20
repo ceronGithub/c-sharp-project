@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace for_loop
 {
     public partial class Form1 : Form
@@ -27,6 +28,13 @@ namespace for_loop
             // label1.Text = classMethod.for_loop_one();
             label1.Text = for_loop.staticMethod();
             label2.Text = classMethod.nonStatisMethod();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // string[] result = { classMethod.pingPong(new string[] { textBox1.Text }) };
+            string result = classMethod.pingPong(textBox1.Text);
+            richTextBox1.Text = "\n" + result;
         }
     }
 }
